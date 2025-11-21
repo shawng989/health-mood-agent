@@ -1,0 +1,53 @@
+{
+  "users": [],
+  "moods": [
+    {
+      "id": "1763640080872",
+      "mood": "sad",
+      "note": "Low Sugar",
+      "userId": null,
+      "createdAt": "2025-11-20T12:01:20.872Z"
+    },
+    {
+      "id": "1763639717349",
+      "mood": "Test",
+      "note": "from PS",
+      "userId": "me",
+      "createdAt": "2025-11-20T11:55:17.349Z"
+    },
+    {
+      "id": "1763639366951",
+      "mood": "Happy",
+      "note": "High Blood Pressure",
+      "userId": null,
+      "createdAt": "2025-11-20T11:49:26.951Z"
+    },
+    {
+      "id": "1763638971552",
+      "mood": "Happy",
+      "note": "Manual test from PowerShell",
+      "userId": "test-user",
+      "createdAt": "2025-11-20T11:42:51.552Z"
+    }
+  ],
+  "health": [
+    {
+      "id": "1763640071607",
+      "date": "2025-10-19",
+      "steps": 250,
+      "sleep": 5,
+      "note": "Not Getting Good Sleep",
+      "userId": null,
+      "createdAt": "2025-11-20T12:01:11.608Z"
+    },
+    {
+      "id": "1763639730332",
+      "date": "2025-11-20T11:55:30.332Z",
+      "steps": 1000,
+      "sleep": 7.5,
+      "note": "test health",
+      "userId": null,
+      "createdAt": "2025-11-20T11:55:30.332Z"
+    }
+  ]
+}

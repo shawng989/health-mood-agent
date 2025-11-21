@@ -1,141 +1,70 @@
-Health & Mood Tracking Agent
+# Getting Started with Create React App
 
-A smart, AI-powered wellness companion that helps users track mood, sleep, habits, and daily triggers — while an autonomous agent analyzes trends, detects patterns, and provides personalized insights to support mental and physical well-being.
-Overview
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-The Health & Mood Tracking Agent solves a simple but important problem:
-Most people struggle to consistently track their wellness. This leads to missing patterns such as stress triggers, sleep effects, or lifestyle habits that impact mood.
+## Available Scripts
 
-This project makes tracking effortless by using agents that:
+In the project directory, you can run:
 
-check in with the user
+### `npm start`
 
-analyze mood logs automatically
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-summarize weekly insights
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-detect trends
+### `npm test`
 
-send helpful reminders
-Problem Statement
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Tracking mental wellness requires consistency, reflection, and understanding patterns across mood, sleep, notes, and daily activities.
-Most people forget to log or don’t know how to interpret their data.
+### `npm run build`
 
-✔ Why this matters
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Mental health issues often show early warning signs
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Poor habits build up over time
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Users benefit from personalized, proactive support
-Why Agents?
+### `npm run eject`
 
-Agents make this solution more powerful because they are:
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-✔ Autonomous
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-They work in the background without the user doing anything.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-✔ Proactive
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-They remind users to log mood, drink water, sleep properly, etc.
+## Learn More
 
-✔ Analytical
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-They analyze historical data and detect patterns like:
-“Low sleep is reducing your mood by 30%.”
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-✔ Personalized
+### Code Splitting
 
-They generate weekly summaries tailored to the user.
-Features
- Mood Logging
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-Daily mood rating
+### Analyzing the Bundle Size
 
-Notes
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-Sleep hours
+### Making a Progressive Web App
 
-Common triggers
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
- Smart Insights
+### Advanced Configuration
 
-Weekly summaries
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-Trend analysis
+### Deployment
 
-Trigger correlations
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-Behavior recommendations
+### `npm run build` fails to minify
 
- Reminders
-
-Daily mood check
-
-Sleep, water, medication reminders
-
- Trend Visualization
-
-Mood timeline
-
-Sleep charts
-
-Trigger impact charts
-
- Secure Authentication
-
-Email & password
-
-JWT-based security
-
-Frontend (React + Tailwind)
-        |
-        v
-Backend (Node.js + Express)
-        |
-        v
-Agent Layer (Analysis + Automation)
-        |
-        v
-Database (MongoDB/PostgreSQL)
-
-Tech Stack
-
-Frontend: React, Tailwind CSS
-
-Backend: Node.js, Express
-
-Database: MongoDB / PostgreSQL
-
-Agent Logic: Automated summarizers, schedulers
-
-Auth: JWT
-
-Charts: Recharts
-
-Deployment: Vercel + Render
-
-git clone https://github.com/shawng989/health-mood-agent.git
-cd frontend
-npm install
-npm run dev
-
-cd backend
-npm install
-npm start
-
-Future Improvements
-
-AI chatbot for emotional support
-
-Predictive mood forecasting
-
-Mobile app (React Native)
-
-More advanced graph visualization
-
-Push notifications
-
-Offline mood logging
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
